@@ -1,20 +1,32 @@
 # Baddie-App
-This is AI Powered Solution Project
-# Project Summary
-The Baddie Mental Health App is an intelligent and compassionate companion designed to support users in managing their mental health. It features daily well-being check-ins, mood tracking, personalized resource recommendations, and an anonymous user experience. With integration of the WHO-5 Well-Being Index, the app empowers users by providing insights into their mental state and connecting them with relevant mental health resources. The recent enhancements focus on creating a more engaging and interactive user experience through a redesigned dashboard.
 
-# Project Module Description
-**Daily Check-In**: Users complete an interactive WHO-5 questionnaire with engaging animations and smooth transitions.
-**Mood Dashboard**: Visualizes current mood and trends over time, now featuring:
-**Circular Mood Meter**: Animated meter with real-time feedback.
-**Interactive Mood Trend Chart**: Displays 14-day mood trends with detailed insights.
-**Baddie Badges Gamification System**: Rewards users for engagement and consistency.
-**Quick Actions Panel**: Provides immediate support options based on mood.
-**Resource Recommendation Carousel**: Swipeable cards with mood-specific content.
-**Resource Library**: Offers curated mental health resources, including videos, based on user mood scores.
-**Support Alert**: Provides immediate support recommendations for users with low mood trends.
+An AI-powered mental health companion designed to help users track, understand, and improve their well-being through intelligent check-ins, mood tracking, and personalized recommendations.
 
-# Directory Tree
+---
+
+## 🧠 Project Overview
+
+**Baddie-App** is a compassionate mental health assistant offering daily well-being check-ins, mood dashboards, gamified motivation, and tailored resources. Built with a modern React/TypeScript stack, it empowers users to monitor and improve their mental health journey.
+
+---
+
+## ✨ Features
+
+- **Daily Check-In:** Interactive WHO-5 questionnaire with animations and smooth transitions.
+- **Mood Dashboard:** Visualizes current mood and trends with:
+  - Circular Mood Meter (animated, real-time feedback)
+  - Interactive 14-day Mood Trend Chart
+- **Gamification:** Earn Baddie Badges for engagement and consistency.
+- **Quick Actions Panel:** Immediate support options based on mood.
+- **Resource Recommendations:** Swipeable carousel of videos, articles, and tips tailored to mood.
+- **Resource Library:** Curated mental health resources, updated dynamically.
+- **Support Alerts:** Proactive recommendations for users with low mood trends.
+
+---
+
+## 📂 Directory Structure
+
+```
 shadcn-ui/
 ├── README.md                   # Project overview and instructions
 ├── components.json             # Component configuration
@@ -24,40 +36,92 @@ shadcn-ui/
 ├── postcss.config.js           # PostCSS configuration
 ├── public/
 │   ├── favicon.svg             # Application favicon
-│   └── robots.txt              # Robots.txt for SEO
+│   └── robots.txt              # SEO configuration
 ├── src/
 │   ├── App.css                 # Global styles
 │   ├── App.tsx                 # Main application component
-│   ├── components/              # React components
-│   ├── hooks/                  # Custom hooks
+│   ├── components/             # Reusable React components
+│   ├── hooks/                  # Custom React hooks
 │   ├── lib/                    # Utility functions
-│   ├── pages/                  # Page components
-│   ├── index.css               # Entry CSS file
+│   ├── pages/                  # Page-level components
+│   ├── index.css               # Entry CSS
 │   └── main.tsx                # Application entry point
 ├── tailwind.config.ts          # Tailwind CSS configuration
 ├── template_config.json        # Template configuration
-├── todo.md                    # Project TODOs
+├── todo.md                     # Project TODOs
 └── vite.config.ts              # Vite configuration
-# File Description Inventory
-**README.md**: Overview and setup instructions.
-**package.json**: Lists dependencies and scripts for building and running the app.
-**src/components/**: Contains all React components for the app, including enhanced check-in and resource library components.
-**src/lib/**: Contains utility functions for mood calculations and local storage management.
-**src/pages/**: Contains page components for main application views.
-**src/components/MoodTrendChart.tsx**: New component for visualizing mood trends with interactive features.
+```
 
-# Technology Stack
-**React**: Frontend library for building user interfaces.
-**TypeScript**: Typed superset of JavaScript for better tooling and error checking.
-**Shadcn-UI**: A component library for building user interfaces.
-**Tailwind CSS**: Utility-first CSS framework for styling.
-**Vite**: Build tool for modern web projects.
-**Recharts**: Library for data visualization.
-**Framer Motion**: Library for animations.
+---
 
-# Usage
-1. **Install Dependencies**: Run `pnpm install` to install project dependencies.
-2. **Build the Project**: Use `pnpm run build` to create an optimized build of the application.
-3. **Run the Application**: Execute `pnpm run lint` to check for errors and ensure code quality.
-4. **Run the Application**: Execute `pnpm run lint` to check for errors and ensure code quality.
+## 🛠️ Tech Stack
 
+- **React** & **TypeScript**
+- **Shadcn-UI**: Modern UI components
+- **Tailwind CSS**: Utility-first styling
+- **Vite**: Fast build tool
+- **Recharts**: Data visualization
+- **Framer Motion**: Animations
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/Rodah-chep/Baddie-App.git
+   cd Baddie-App
+   ```
+
+2. **Install dependencies**
+   ```sh
+   pnpm install
+   ```
+
+3. **Run in development mode**
+   ```sh
+   pnpm dev
+   ```
+
+4. **Build for production**
+   ```sh
+   pnpm run build
+   ```
+
+5. **Lint and check code quality**
+   ```sh
+   pnpm run lint
+   ```
+
+---
+
+## 📖 File Descriptions
+
+- **README.md**: Project documentation & setup instructions
+- **package.json**: Project dependencies & scripts
+- **src/components/**: Main UI building blocks
+- **src/lib/**: Utilities (mood calculations, local storage, etc.)
+- **src/pages/**: Main page components
+- **src/components/MoodTrendChart.tsx**: Interactive mood visualization
+
+---
+
+## 🤝 Contributing
+
+Contributions, bug reports, and suggestions are welcome! Please open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+[MIT](LICENSE)
+
+---
+
+## 🧑‍💻 Maintainer
+
+- [Rodah-chep](https://github.com/Rodah-chep)
+
+---
+
+*Prioritizing mental well-being, one check-in at a time.*
