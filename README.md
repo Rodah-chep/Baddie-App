@@ -4,6 +4,12 @@ An AI-powered mental health companion designed to help users track, understand, 
 
 ---
 
+## 🌐 Live Demo
+
+[Access the Baddie-App here!](https://399208-94e11fb125bc45399ff0b5d472b13100-1-v4.app.mgx.dev)
+
+---
+
 ## 🧠 Project Overview
 
 **Baddie-App** is a compassionate mental health assistant offering daily well-being check-ins, mood dashboards, gamified motivation, and tailored resources. Built with a modern React/TypeScript stack, it empowers users to monitor and improve their mental health journey.
